@@ -1,0 +1,23 @@
+/*
+//	Copyright (c) 2009, 2010 Daniel Robert Bradley. All rights reserved.
+//	This software is distributed under the terms of the GNU Lesser General Public License version 2.1
+*/
+
+HTML  { height: 101%; }
+BODY  { height: 100%; margin: 0px; padding: 0px; position: relative; }
+DIV   { margin: 0px; padding: 0px; position: relative; }
+P     { margin: 0px; padding: 0px; }
+B     { font-weight: 600; }
+
+FORM  { margin: 0px; padding: 0px; }
+IMG   { border: none; }
+
+H1    { margin: 0px; padding: 0px; }
+H2    { margin: 0px; padding: 0px; }
+H3    { margin: 0px; padding: 0px; }
+H4    { margin: 0px; padding: 0px; }
+H5    { margin: 0px; padding: 0px; }
+H6    { margin: 0px; padding: 0px; }
+H7    { margin: 0px; padding: 0px; }
+H8    { margin: 0px; padding: 0px; }
+H9    { margin: 0px; padding: 0px; }
