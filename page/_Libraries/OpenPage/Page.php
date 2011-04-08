@@ -14,8 +14,6 @@ include( "Deps/Printer.php" );
 include( "Deps/SessionSP.php" );
 include( "Deps/User.php" );
 
-//	array_get( "key", $tuples );
-//
 function array_get( $key, $array )
 {
 	return isset( $array ) && array_key_exists( $key, $array ) ? $array[$key] : "";
@@ -54,7 +52,7 @@ class Page
 	function __construct( $request )
 	{
 		$this->out   = new Printer();
-		$this->debug = ( DEBUG ) ? new Printer() : NullPrinter();
+		$this->debug = ( DEBUG ) ? new Printer() : new NullPrinter();
 		$this->debug->startBuffering(); // Writes buffer when body() is called so as to not interfer with headers.
 
 		$this->debug->println( "<!-- Page() start -->" );
